@@ -46,8 +46,7 @@ Deliverables:
    - [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
 ![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/a61458d7ca0c47664b3a89a042f665cda465c7e2/images/project_twitter_wordcloud_3.png)
 
-#### C) The Wordcloud is updated and posted in Twitter using Twitter API
-1) A Twitter Bot account is used to update and then post the Wordcloud.
+#### C) The Wordcloud is uploaded and posted in my Twitter Bot Account using Twitter API
 
 Deliverable:
    - [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
