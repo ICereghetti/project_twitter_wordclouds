@@ -12,7 +12,7 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 * [Wordcloud's Control Pannel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
 * [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
 * [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
-* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot)
+* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot) (Deprecated temporarly after May-, since Twitter changed their Therms and conditions)
 
 ## Skills Used in This Project
 1) Data Scraping
@@ -28,7 +28,7 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 
 
 ## Highlights
-#### A) Create a list of teams to analyze their logo and create a Control Pannel to change Wordclouds condiguration (https://funeraldirectors.co.nz)
+#### A) Create a list of teams to analyze their logo and create a Control Pannel to change Wordclouds condiguration 
 1) The Control Pannel is read using Google Sheets API. In this way we can change the Charts parameters withouth changing the code, just changing the options in the Spreadsheet.
 2) Following the previous day order, a team is chosen to create the wordcloud.
 
@@ -52,4 +52,5 @@ Deliverables:
 Deliverable:
    - [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
    - [Twitter Bot Profile](https://twitter.com/EsportsNews_bot)
+
 ![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_2.png)
