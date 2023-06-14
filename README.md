@@ -22,6 +22,7 @@ The project includes the following deliverables:
 2) Text Processing/Manipulation
 3) Data Modeling
 4) Data Mining
+5) Data Visualization
 
 ## Tools Used
 
