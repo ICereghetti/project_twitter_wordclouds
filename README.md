@@ -31,6 +31,7 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 #### A) Create a list of teams to analyze their logo and create a Control Pannel to change Wordclouds condiguration (https://funeraldirectors.co.nz)
 1) The Control Pannel is read using Google Sheets API. In this way we can change the Charts parameters withouth changing the code, just changing the options in the Spreadsheet.
 2) Following the previous day order, a team is chosen to create the wordcloud.
+
 Deliverable:
    - [Wordcloud's Control Pannel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
 ![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_1.png)
@@ -40,6 +41,7 @@ Deliverable:
 2) Leveraged Pandas, Tweepy, and BeautifulSoup, Counter and STOPWORDS for data structuring.
 3) Sentiment analysis is made with TextBlob, then calculated an average for each relevant word.
 4) matplotlib, Wordcloud, BytesIO and Image packages are used to create the image shaped like that team's logo and configurated for that team following the Spreadsheet parameters chosed for that team.
+
 Deliverables:
    - [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
 ![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/a61458d7ca0c47664b3a89a042f665cda465c7e2/images/project_twitter_wordcloud_3.png)
