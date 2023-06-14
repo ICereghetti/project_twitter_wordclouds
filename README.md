@@ -9,12 +9,15 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 
 ## Deliverables
 
-* [Wordcloud's Control Pannel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
-* [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
-* [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
-* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot) (Deprecated temporarly after May-22, since Twitter changed their Therms and conditions)
+The project includes the following deliverables:
+
+* [Wordcloud's Control Panel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0): A Google Sheets document that acts as a control panel for changing Wordcloud configurations.
+* [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples): A collection of Wordcloud images generated daily, each representing a different team's performance.
+* [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py): The code used to create and update the Wordclouds and post them on Twitter.
+* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot) (Deprecated temporarily after May-22, since Twitter changed their Terms and Conditions): The Twitter profile of the bot used to post the Wordclouds.
 
 ## Skills Used in This Project
+
 1) Data Scraping
 2) Text Processing/Manipulation
 3) Data Modeling
@@ -22,34 +25,38 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 
 ## Tools Used
 
-1) Python (tweepy, WordCloud, BeautifulSoup, google.cloud, requests)
-2) Google Cloud Platform (BigQuery,Cloud Functions, Scheduer, Google Docs, Storage)
-3) Twitter
+The following tools and technologies were used in this project:
 
+1) Python (tweepy, WordCloud, BeautifulSoup, google.cloud, requests): Python libraries for data processing, web scraping, and generating Wordclouds.
+2) Google Cloud Platform (BigQuery, Cloud Functions, Scheduler, Google Docs, Storage): Google Cloud services used for data storage, scheduling tasks, and managing the control panel.
+3) Twitter: Twitter API is used to retrieve tweets, post Wordclouds, and manage the bot account.
 
 ## Highlights
-#### A) Create a list of teams to analyze their logo and create a Control Pannel to change Wordclouds condiguration 
-1) The Control Pannel is read using Google Sheets API. In this way we can change the Charts parameters withouth changing the code, just changing the options in the Spreadsheet.
-2) Following the previous day order, a team is chosen to create the wordcloud.
+
+### A) Create a list of teams to analyze their logo and create a Control Panel to change Wordcloud configurations
+
+1. The Control Panel is implemented using the Google Sheets API, allowing for easy modification of Wordcloud parameters without changing the code. Options in the spreadsheet control the appearance of the Wordcloud.
+2. Each day, a team is chosen based on the previous day's order to create the Wordcloud.
 
 Deliverable:
-   - [Wordcloud's Control Pannel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
-![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_1.png)
+- [Wordcloud's Control Panel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
+![Wordcloud's Control Panel](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_1.png)
 
-#### B) Created the Wordcloud of the team chosen based on the control panel's config.
-1) Once the team is chosen, the code looks for their main Hashtag to analyze their last 10 days tweets.
-2) Leveraged Pandas, Tweepy, and BeautifulSoup, Counter and STOPWORDS for data structuring.
-3) Sentiment analysis is made with TextBlob, then calculated an average for each relevant word.
-4) matplotlib, Wordcloud, BytesIO and Image packages are used to create the image shaped like that team's logo and configurated for that team following the Spreadsheet parameters chosed for that team.
+### B) Create the Wordcloud of the chosen team based on the control panel's configuration
+
+1. Once a team is chosen, the code looks for their main hashtag to analyze their last 10 days of tweets.
+2. Utilizing libraries such as Pandas, Tweepy, BeautifulSoup, Counter, and STOPWORDS, the data is structured.
+3. Sentiment analysis is performed using TextBlob, and averages are calculated for each relevant word.
+4. The Wordcloud is created using libraries such as matplotlib, Wordcloud, BytesIO, and Image, generating an image in the shape of the team's logo and configured according to the parameters chosen in the spreadsheet.
 
 Deliverables:
-   - [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
-![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/a61458d7ca0c47664b3a89a042f665cda465c7e2/images/project_twitter_wordcloud_3.png)
+- [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
+![Wordcloud Sample](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/a61458d7ca0c47664b3a89a042f665cda465c7e2/images/project_twitter_wordcloud_3.png)
 
-#### C) The Wordcloud is uploaded and posted in my Twitter Bot Account using Twitter API
+### C) Upload and post the Wordcloud in the Twitter Bot Account using Twitter API
 
-Deliverable:
-   - [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
-   - [Twitter Bot Profile](https://twitter.com/EsportsNews_bot)
+Deliverables:
+- [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
+- [Twitter Bot Profile](https://twitter.com/EsportsNews_bot)
 
-![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_2.png)
+![Twitter Bot Wordcloud](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_2.png)
