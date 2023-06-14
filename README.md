@@ -32,7 +32,8 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 1) The Control Pannel is read using Google Sheets API. In this way we can change the Charts parameters withouth changing the code, just changing the options in the Spreadsheet.
 2) Following the previous day order, a team is chosen to create the wordcloud.
 Deliverable:
-   - [New Zealand's Funeral Homes Database](https://github.com/ICereghetti/project_funeral_homes/blob/b45ae90cea72fae99af1870f2f5ad925c75aeed4/funeral_homes_database.csv)
+   - [Wordcloud's Control Pannel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
+![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_1.png)
 
 #### B) Created the Wordcloud of the team chosen based on the control panel's config.
 1) Once the team is chosen, the code looks for their main Hashtag to analyze their last 10 days tweets.
@@ -40,15 +41,13 @@ Deliverable:
 3) Sentiment analysis is made with TextBlob, then calculated an average for each relevant word.
 4) matplotlib, Wordcloud, BytesIO and Image packages are used to create the image shaped like that team's logo and configurated for that team following the Spreadsheet parameters chosed for that team.
 Deliverables:
-   - [Python Code](https://github.com/ICereghetti/project_funeral_homes/blob/b45ae90cea72fae99af1870f2f5ad925c75aeed4/scrape_website.py)
-   - [Data Sample](https://github.com/ICereghetti/project_funeral_homes/blob/b45ae90cea72fae99af1870f2f5ad925c75aeed4/samples.json)
+   - [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
+![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/a61458d7ca0c47664b3a89a042f665cda465c7e2/images/project_twitter_wordcloud_3.png)
 
-
-![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/27f2f9b2d88ac78119a6e8f37f4d1b40b93635ab/images/project_funeral_homes_1.png?raw=true)
-
-#### C) A Wordcloud is updated and posted in Twitter using Twitter API
+#### C) The Wordcloud is updated and posted in Twitter using Twitter API
 1) A Twitter Bot account is used to update and then post the Wordcloud.
 
 Deliverable:
-   - [Database Structure](https://docs.google.com/spreadsheets/d/1YKqOfKtCx-Bx4KtMh7
-![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/27f2f9b2d88ac78119a6e8f37f4d1b40b93635ab/images/project_funeral_homes_2.png)
+   - [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
+   - [Twitter Bot Profile](https://twitter.com/EsportsNews_bot)
+![](https://github.com/ICereghetti/Cereghetti_Portfolio/blob/f4914a3740d8a269d538f12108a96f0d55c125b5/images/project_twitter_wordcloud_2.png)
