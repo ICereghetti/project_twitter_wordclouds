@@ -11,7 +11,8 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 
 * [Wordcloud's Control Pannel](https://github.com/ICereghetti/project_funeral_homes/blob/b45ae90cea72fae99af1870f2f5ad925c75aeed4/funeral_homes_database.csv)
 * [A different Wordcloud once a Day](https://github.com/ICereghetti/project_funeral_homes/blob/1556a93cb6b031ada01dad035458566a79eef8a2/scrape_website.py)
-* [Twitter Bot](https://github.com/ICereghetti/project_funeral_homes/blob/b45ae90cea72fae99af1870f2f5ad925c75aeed4/samples.json)
+* [Twitter Bot Code](https://github.com/ICereghetti/project_funeral_homes/blob/b45ae90cea72fae99af1870f2f5ad925c75aeed4/samples.json)
+* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot)
 
 ## Skills Used in This Project
 1) Data Scraping
