@@ -12,7 +12,7 @@ This project offers a dynamic and visually engaging solution for tracking the pe
 * [Wordcloud's Control Pannel](https://docs.google.com/spreadsheets/d/1MFIte9Rm4hXk713uXG4DOKKg2gwN8S_GJ-tqEwBi3tk/edit#gid=0)
 * [A different Wordcloud once a Day](https://github.com/ICereghetti/project_twitter_wordclouds/tree/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/wordcloud_samples)
 * [Twitter Bot Code](https://github.com/ICereghetti/project_twitter_wordclouds/blob/5baa21324a5e5e0bbfacbb93ea6ea2755713acb8/code.py)
-* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot) (Deprecated temporarly after May-, since Twitter changed their Therms and conditions)
+* [Twitter Bot Profile](https://twitter.com/EsportsNews_bot) (Deprecated temporarly after May-22, since Twitter changed their Therms and conditions)
 
 ## Skills Used in This Project
 1) Data Scraping
